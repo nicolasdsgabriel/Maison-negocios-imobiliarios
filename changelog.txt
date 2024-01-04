@@ -1,0 +1,92 @@
+Changelog: 13/10/2023
+
+    - Adicionado o sistema de operação, onde podemos escolher se é aluguel ou compra
+    - Implementação do sistema Javascript para poder adicionar um sistema que altera, entre por texto ou por filtros.
+
+Changelog: 14/10/2023
+
+    - Adicionado um formulário com os tipos de dados que o usuário possa requerer
+    - Adicionado Javascript para o código, porem não será obrigatorio a sua utilização, somente sendo usado para apresentar o código. Ou seja poderemos usa por sessão ou cookies do php
+    - Adicionado o novo método a classe imovel
+    - Modificado o sql do projeto, onde o mesmo encontra-se com novas colunas.
+    - Adicionado o filtro.php onde nele é possivel verificar o código do filtro, porem somente para puxar o código, pois o javascript apresenta aquele código ao usuário.
+
+Changelog: 17/10/2023
+
+    - Adicionado uma pasta nova no drive do projeto, com o intuito de salvar as versões anteriores, assim podemos verificar as alterações realizadas anteriormente.
+    - Removido o javascript do projeto, para prosseguimos com o filtro. O javascript só vai voltar quando o estivermos 100% porcento com o código do catalágo.
+    - Adicionado uma área de filtros no catalágo do index.php.
+
+Changelog: 28/10/2023
+
+    -- Editado por Weslly
+    - Adicionado uma nova classe filtro ao php "Classe.filtro.php" arquivo CLASSES, com o intuito de otimizar o código das classes, deixando mais facil de compreender os métodos
+
+    -- Editado por Nicolas
+    - Adição do sistema de favoritos, ainda em teste
+
+Changelog: 29/10/2023
+
+    -- Editado por  Weslly
+    - Finalizado o sistema de filtro
+    - Comentado o sistema de favorito
+
+Changelog: 31/10/2023
+
+    -- Editado por Weslly
+    - Adicionado páginação ao catalágo de imovel
+
+    -- Editado por Nicolas
+    - Sistema de favoritos apresenta dificuldades para alterar o registro no DB
+
+Changelog: 03/11/2023
+
+    -- Editado por Weslly
+    - Adicionado sistema de ordenação ao catalágo
+
+Changelog: 07/11/2023
+
+    -- Editado por Weslly
+    - Maneiras de puxar a longitude e latitude. (1 - adicionar um input tipo hidden no index que puxa a latitude e longitude do imovel cadastrado, assim podemos puxar o valor do sql e passar para o javascript)
+
+Changelog: 15/11/2023
+
+    --Editado por Nicolas
+    - Sistema de favoritos funcionando
+
+Changelog: 16/11/2023
+
+    -- Editado por Weslly
+    - Sistema de registro funcionando.
+    - Adicionado a página do login, para podermos dar inicio ao sistema de edição e usuário
+
+Changelog: 17/11/2023
+
+    -- Editado por Weslly
+    - Sitema de logout completo
+    - Adicionado o php do login, mas não completo
+    - Adicionado o php do registrar-se. O php está funcionando para adicionar novos usuários, mas a página html, e a lógica de verificar o login não estão completos.
+    - Adicionado a classe Cliente, onde tudo que envolva adicionar, ler, editar ou excluir, estará presente no php da classe.
+    - Adicionado a area do Cliente
+
+Changelog: 18/11/2023
+
+    -- Editado por Weslly
+    - Adicionado páginas html na página adm, para deixar semelhante ao que se espera do código completo
+
+Changelog: 01/11/2023
+
+
+-- INFORMAÇÕES PARA A APRESENTAÇÃO
+
+    O que o leal quer:
+
+    - Descrição do contexto do sistema e a motivação pela a criação do mesmo (Porque o Fizemos o Maison)
+
+    - Visão geral do sistema (fluxograma ou bloco de notas)
+
+    - Fazer uma gravação ao invés do código ao vivo
+
+    Máximo 20 minutos
+
+Mais informações no trello.

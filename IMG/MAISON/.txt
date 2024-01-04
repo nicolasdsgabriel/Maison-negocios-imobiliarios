@@ -1,0 +1,1 @@
+Esta pasta salva os arquivos necessários para o maison, e não dos imoveis.
